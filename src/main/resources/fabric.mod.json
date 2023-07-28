@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "id": "noparticles",
+  "version": "${version}",
+
+  "name": "NoParticles",
+  "description": "Release tomorrow",
+  "authors": [
+    "Ckitipolispolkendarukkroskaposk"
+  ],
+  "contact": {
+    "homepage": "https://chronosproject.ru/",
+    "sources": "https://github.com/olegaterstvo/"
+  },
+
+  "license": "MIT License",
+  "icon": "assets/chronosproject/icon.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "net.cpd.noparticles.NoParticles"
+    ],
+    "client": [
+      "net.cpd.noparticles.NoParticlesClient"
+    ]
+  },
+
+
+  "depends": {
+    "fabricloader": ">=0.14.21",
+    "fabric-api": "*",
+    "minecraft": "~1.20",
+    "java": ">=17"
+  },
+  "suggests": {
+    "another-mod": "*"
+  }
+}
